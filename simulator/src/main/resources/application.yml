@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: "IOT Simulator"
+  banner:
+    location: banner.txt
+  devtools:
+    restart:
+      enabled: true
+  jackson:
+    serialization:
+      indent-output: true

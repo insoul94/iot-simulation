@@ -1,0 +1,13 @@
+package com.iot.controller;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class IotControllerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(IotControllerApplication.class, args);
+    }
+
+}

@@ -1,0 +1,30 @@
+logging:
+  level:
+    ROOT: INFO
+    org.hibernate.SQL: DEBUG
+    com.iot: DEBUG
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: "IOT Controller"
+  banner:
+    location: banner.txt
+  devtools:
+    restart:
+      enabled: true
+  jackson:
+    serialization:
+      indent-output: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/iot_devices?useSSL=false
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
