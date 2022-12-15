@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 @Component
-public class AssetHttpConnector implements AssetController {
+public class  AssetHttpConnector implements AssetController {
 
     private final RestTemplate restTemplate;
 
